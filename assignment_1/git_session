@@ -1,0 +1,702 @@
+Script started on 2021-06-22 10:09:03+0530
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions[00m$ mkdir git_repo
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions[00m$ cd git_repo/
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git status
+fatal: not a git repository (or any of the parent directories): .git
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git init
+Initialized empty Git repository in /home/ssreeramj/MyStuff/work/mle_module_1/solutions/git_repo/.git/
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git co[K[Kstatus
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git add .
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git commit -  
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm 
+ 'Initial comi[K[Kmi[Kmit'
+On branch master
+
+Initial commit
+
+nothing to commit
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ echo 'My Proj 
+ect' > README>[K.md
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ g[Kgit status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mREADME.md[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ echo >>[K[K
+
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ echo 'Test li 
+ne' >> READEM[K[KME.md 
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git t[Kstatus
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mREADME.md[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ f[Kgit [K[K[K[Kcatt [K[K README.md 
+ 
+My Project
+Test line
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git add. [K[K .[KRA[KEADM 
+E
+fatal: pathspec 'README' did not match any files
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git add .R[K[Kr[Kr[KREADME
+E.md 
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ echo 'Test Li 
+ne' '2'[C >> 'R[K[KREADME.md 
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   README.md[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   README.md[m
+
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ gt[Kit status -s 
+[A
+[32mA[m[31mM[m README.md
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ touc [K[K[K[K[Keh[Kcho '*.[i[Koa]' 
+ > .gitignore
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   README.md[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   README.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git stau[Ktus -s 
+[A
+[32mA[m[31mM[m README.md
+[31m??[m .gitignore
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git diff
+[?1h=
+[1mdiff --git a/README.md b/README.md[m[m
+[1mindex eb25b6a..1eda6d6 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -1,2 +1,3 @@[m[m
+ My Project[m[m
+ Test line[m[m
+[32m+[m[32mTest Line 2[m[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git diff --st 
+agerd[K[Kd
+[?1h=
+[1mdiff --git a/README.md b/README.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..eb25b6a[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32mMy Project[m[m
+[32m+[m[32mTest line[m[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git add .
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git commit -; 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K-m 
+ 'modified Rea[K[KEADME'
+[master (root-commit) d2dc335] modified README
+ 2 files changed, 4 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ echo 'hello t 
+here' > tets[K[Kst_file.txt
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git sttus[K[K[Kastus[K[K[K[Ktus
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtest_file.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git commit -a 
+ -m 'test c[K[K [K[K[K[Ka[K[Kadded test ifle[K[K[K[K[K_file.tt[Kxt'
+On branch master
+Untracked files:
+	[31mtest_file.txt[m
+
+nothing added to commit but untracked files present
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git stta[K[Katus
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtest_file.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git add .
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git om[K[Kcadd .statuscommit -a 
+ -m 'added test_file.txt'
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[1P[A
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C -m[1P[A
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ [C[C[C[C[C[C[C[C[C[C[C-m [1P[A
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ [C[C[C[C[C[C[C[C[C[C
+
+
+[master 295aeff] added test_file.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test_file.txt
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git rm test_fi
+ile.txt 
+rm 'test_file.txt'
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ d[Kgit status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    test_file.txt[m
+
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git add .
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ go[Kit commit -m 
+ 'deleted tes[Kst_file'
+[master 3724038] deleted test_file
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 test_file.txt
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git log
+[?1h=
+[33mcommit 3724038ea74b438bafe87681c8ed09d21a5f9504[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:20:32 2021 +0530[m
+[m
+    deleted test_file[m
+[m
+[33mcommit 295aeffd304ddd538b0734dae6b6c3f184b580c0[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:18:59 2021 +0530[m
+[m
+    added test_file.txt[m
+[m
+[33mcommit d2dc335a84fe537ff364c22c63ad04da8f1eabf1[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:17:31 2021 +0530[m
+[m
+    modified README[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git log pre[K[K[K[K 0[K--pre 
+tty=oneline
+[?1h=
+[33m3724038ea74b438bafe87681c8ed09d21a5f9504[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m deleted test_file[m
+[33m295aeffd304ddd538b0734dae6b6c3f184b580c0[m added test_file.txt[m
+[33md2dc335a84fe537ff364c22c63ad04da8f1eabf1[m modified README[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git log --sin 
+ce=2.2[Kweeks
+[?1h=
+[33mcommit 3724038ea74b438bafe87681c8ed09d21a5f9504[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:20:32 2021 +0530[m
+[m
+    deleted test_file[m
+[m
+[33mcommit 295aeffd304ddd538b0734dae6b6c3f184b580c0[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:18:59 2021 +0530[m
+[m
+    added test_file.txt[m
+[m
+[33mcommit d2dc335a84fe537ff364c22c63ad04da8f1eabf1[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:17:31 2021 +0530[m
+[m
+    modified README[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git status
+On branch master
+nothing to commit, working tree clean
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ gi [Kt remote
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git remote -v 
+[A
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git remote add
+d origin https://github.com/ssreeramj/git-tutorial.git
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git branch -M 
+ main
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git push -u or
+rigin main
+Username for 'https://github.com': ssreeramj
+Password for 'https://ssreeramj@github.com': 
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   
+Compressing objects:  40% (2/5)   
+Compressing objects:  60% (3/5)   
+Compressing objects:  80% (4/5)   
+Compressing objects: 100% (5/5)   
+Compressing objects: 100% (5/5), done.
+Writing objects:  12% (1/8)   
+Writing objects:  25% (2/8)   
+Writing objects:  37% (3/8)   
+Writing objects:  62% (5/8)   
+Writing objects:  75% (6/8)   
+Writing objects:  87% (7/8)   
+Writing objects: 100% (8/8)   
+Writing objects: 100% (8/8), 600 bytes | 300.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[K
+remote: Resolving deltas:  50% (1/2)[K
+remote: Resolving deltas: 100% (2/2)[K
+remote: Resolving deltas: 100% (2/2), done.[K
+To https://github.com/ssreeramj/git-tutorial.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git remote
+origin
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git remov[Kte -v 
+[A
+origin	https://github.com/ssreeramj/git-tutorial.git (fetch)
+origin	https://github.com/ssreeramj/git-tutorial.git (push)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git remote sh 
+ow orighin[K[K[Kin
+* remote origin
+  Fetch URL: https://github.com/ssreeramj/git-tutorial.git
+  Push  URL: https://github.com/ssreeramj/git-tutorial.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git tab[Kg
+[?1h=
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git tag -a -[K1. 
+0
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kv1 
+.0 -m 'my vr[Kersion 1.0'
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git tag
+[?1h=
+v1.0[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git log
+[?1h=
+[33mcommit 3724038ea74b438bafe87681c8ed09d21a5f9504[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;33mtag: v1.0[m[33m, [m[1;31morigin[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;33m[m[33m[m[1;31m/main[m[33m)[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:20:32 2021 +0530[m
+[m
+    deleted test_file[m
+[m
+[33mcommit 295aeffd304ddd538b0734dae6b6c3f184b580c0[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:18:59 2021 +0530[m
+[m
+    added test_file.txt[m
+[m
+[33mcommit d2dc335a84fe537ff364c22c63ad04da8f1eabf1[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:17:31 2021 +0530[m
+[m
+    modified README[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git tag -a v0 
+.9 295aeffd
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 5 lines ](B[m[H(B[0;7m/home/ssreeramj/MyStuff/work/mle_module_1/solutions/git_repo/.git/TAG_EDITMSG   [1;78H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[4d[39;49m[36m#[5d# Write a message for tag:
+[6d#   v0.9
+[7d# Lines starting with '#' will be ignored.
+[3d[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>
+[Kfatal: no tag message?
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git tag
+[?1h=
+v1.0[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git tag -a v0.
+.9 295aeffd
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C v0.9[1P 295aeffd[A
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ [C[C[C[C[C[C[C[C[C v0.9 [1P295aeffd[A
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ [C[C[C[C[C[C[C[Cv0.9 2[1P95aeffd[A
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ [C[C[C[C[C[C[C
+
+
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git tag
+[?1h=
+v0.9[m
+v1.0[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git log
+[?1h=
+[33mcommit 3724038ea74b438bafe87681c8ed09d21a5f9504[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;33mtag: v1.0[m[33m, [m[1;31morigin[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;33m[m[33m[m[1;31m/main[m[33m)[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:20:32 2021 +0530[m
+[m
+    deleted test_file[m
+[m
+[33mcommit 295aeffd304ddd538b0734dae6b6c3f184b580c0[m[33m ([m[1;33mtag: v0.9[m[33m)[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:18:59 2021 +0530[m
+[m
+    added test_file.txt[m
+[m
+[33mcommit d2dc335a84fe537ff364c22c63ad04da8f1eabf1[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:17:31 2021 +0530[m
+[m
+    modified README[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git push orig 
+in --tags
+Counting objects: 1, done.
+Writing objects: 100% (1/1)   
+Writing objects: 100% (1/1), 158 bytes | 158.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0)
+To https://github.com/ssreeramj/git-tutorial.git
+ * [new tag]         v0.9 -> v0.9
+ * [new tag]         v1.0 -> v1.0
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ exit
+exit
+
+Script done on 2021-06-22 10:46:17+0530
+Script started on 2021-06-22 12:31:35+0530
+]0;ssreeramj@paradise: ~[01;32mssreeramj@paradise[00m:[01;34m~[00m$ it[K[Kgit last
+git: 'last' is not a git command. See 'git --help'.
+
+The most similar commands are
+	blame
+	reset
+	stash
+]0;ssreeramj@paradise: ~[01;32mssreeramj@paradise[00m:[01;34m~[00m$ git config --global alias.last 'log -1 HEAD'
+]0;ssreeramj@paradise: ~[01;32mssreeramj@paradise[00m:[01;34m~[00m$ git config --global alias.last 'log -1 HEAD'
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clast[K
+fatal: not a git repository (or any of the parent directories): .git
+]0;ssreeramj@paradise: ~[01;32mssreeramj@paradise[00m:[01;34m~[00m$ cd git config --global alias.last 'log -1 HEAD'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit [K[K[K[Kcd /home/ssreeramj/MyStuff/work/mle_module_1/solutions/git_
+_repo
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git lsat
+git: 'lsat' is not a git command. See 'git --help'.
+
+The most similar command is
+	last
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git last
+[?1h=
+[33mcommit 3724038ea74b438bafe87681c8ed09d21a5f9504[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;33mtag: v1.0[m[33m, [m[1;31morigin[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;33m[m[33m[m[1;31m/main[m[33m)[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:20:32 2021 +0530[m
+[m
+    deleted test_file[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git branch te 
+sting
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git sttu[K[Katus
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git branches[K[K -- 
+i
+[Klist
+[?1h=
+* [32mmain[m[m
+  testing[m[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git chec[Kk[Kckout  
+testing
+Switched to branch 'testing'
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git[K[K[Kto[K[Kecho 'tesing[K[Kt[K[Kting 
+ the r[Kbracn[K[Knch' > new_file_new_branch.txt
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git status
+On branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mnew_file_new_branch.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git checkout  
+main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mnew_file_new_branch.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git branch[K[K[K[K[K[Kcheko[K[Kckout  
+testing
+Switched to branch 'testing'
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git stau[Ktus
+On branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mnew_file_new_branch.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git add .
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git commi t[Kt[K[Kt -m 
+ 'added nre[K[Kew file in tesin[K[Kting branch'
+[testing 944f35b] added new file in testing branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new_file_new_branch.txt
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git log
+[?1h=
+[33mcommit 944f35b1d990844232a0fee8559ad87257523f14[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m)[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 13:33:48 2021 +0530[m
+[m
+    added new file in testing branch[m
+[m
+[33mcommit 3724038ea74b438bafe87681c8ed09d21a5f9504[m[33m ([m[1;33mtag: v1.0[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:20:32 2021 +0530[m
+[m
+    deleted test_file[m
+[m
+[33mcommit 295aeffd304ddd538b0734dae6b6c3f184b580c0[m[33m ([m[1;33mtag: v0.9[m[33m)[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:18:59 2021 +0530[m
+[m
+    added test_file.txt[m
+[m
+[33mcommit d2dc335a84fe537ff364c22c63ad04da8f1eabf1[m[m
+Author: ssreeramj <ssreeramj@gmail.com>[m
+Date:   Tue Jun 22 10:17:31 2021 +0530[m
+[m
+    modified README[m
+:[K
+[K
+[K:[K
+[K:[K
+[K[7mNo next tag  (press RETURN)[27m[24;1H[K
+[K:[K
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ 
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ gi swi[K[K[K[Kt w[Kswitch te 
+sting
+git: 'switch' is not a git command. See 'git --help'.
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git --version 
+[A
+git version 2.17.1
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git branch -d 
+ testing 
+error: Cannot delete branch 'testing' checked out at '/home/ssreeramj/MyStuff/work/mle_module_1/solutions/git_repo'
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git branch
+[?1h=
+  main[m[m
+* [32mtesting[m[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git ceh[K[Kheckout  
+master
+error: pathspec 'master' did not match any file(s) known to git.
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ g[Kgit checkout m
+master[K[K[K[K[Kain
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git branch -d 
+ testing
+error: The branch 'testing' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D testing'.
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git merged [K[K e[Ktes 
+tn[King
+Updating 3724038..944f35b
+Fast-forward
+ new_file_new_branch.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new_file_new_branch.txt
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git b[Kmerge test
+ting[A
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ [C[C[C[Cbranch -d testing
+Deleted branch testing (was 944f35b).
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git [K[K[K[Kls
+new_file_new_branch.txt  README.md
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git mv new_fil
+le_new_branch.txt sample[Ke_file.txt
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mrenamed:    new_file_new_branch.txt -> sample_file.txt[m
+
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git add .
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ gti[K[Kit commit -m 
+'renamd[Ked a file'
+[main aa0ca3c] renamed a file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename new_file_new_branch.txt => sample_file.txt (100%)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git [K[K[K[Kgit checkout  
+-b nre[K[Kew_branch
+Switched to a new branch 'new_branch'
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git [K[K[K[Kecho 'Now [K[K[Kew bra 
+nch contents' >> sample_file.txt 
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git checkout  
+mer[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[Kgit add .
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git commit -m 
+ 'modeif[K[K[Kified same fiel[K[Kle'
+[new_branch 2b96375] modified same file
+ 1 file changed, 1 insertion(+)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git status
+On branch new_branch
+nothing to commit, working tree clean
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git checkout  
+master
+error: pathspec 'master' did not match any file(s) known to git.
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ g[Kgit checkout m
+master[K[K[K[Kin
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git merge new_
+_branch 
+Updating aa0ca3c..2b96375
+Fast-forward
+ sample_file.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git checkout  
+a
+[Knew_branch 
+Switched to branch 'new_branch'
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ echo[K[K[K[Kecho 'new bra 
+nch o[Kcontesn[K[Knts' > sample_file.txt 
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git ad [Kd .
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git commit -m 
+ 'modeii[K[K[K[Kdified new bra[K[K[Kfie[Kle'
+[new_branch 43fb247] modified new file
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git checkout  
+master
+error: pathspec 'master' did not match any file(s) known to git.
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git checkout  
+main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git merge new 
+_branch 
+Updating 2b96375..43fb247
+Fast-forward
+ sample_file.txt | 3 [32m+[m[31m--[m
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ 1[Kgit ch[K[Kbranch
+[?1h=
+* [32mmain[m[m
+  new_branch[m[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git [K[K[K[Kgitb[K branh=c[K[K[Kch -v 
+[A
+[?1h=
+* [32mmain      [m 43fb247 [ahead 4] modified new file[m
+  new_branch[m 43fb247 modified new file[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git py[Kush
+Username for 'https://github.com': ssreeramj
+Password for 'https://ssreeramj@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ssreeramj/git-tutorial.git/'
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git push orig 
+in master[K[K[K[Kin
+Username for 'https://github.com': ssreeramj
+Password for 'https://ssreeramj@github.com': 
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects:  12% (1/8)   
+Compressing objects:  25% (2/8)   
+Compressing objects:  37% (3/8)   
+Compressing objects:  50% (4/8)   
+Compressing objects:  62% (5/8)   
+Compressing objects:  75% (6/8)   
+Compressing objects:  87% (7/8)   
+Compressing objects: 100% (8/8)   
+Compressing objects: 100% (8/8), done.
+Writing objects:   9% (1/11)   
+Writing objects:  18% (2/11)   
+Writing objects:  27% (3/11)   
+Writing objects:  36% (4/11)   
+Writing objects:  45% (5/11)   
+Writing objects:  54% (6/11)   
+Writing objects:  63% (7/11)   
+Writing objects:  72% (8/11)   
+Writing objects:  81% (9/11)   
+Writing objects:  90% (10/11)   
+Writing objects: 100% (11/11)   
+Writing objects: 100% (11/11), 1.05 KiB | 358.00 KiB/s, done.
+Total 11 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[K
+remote: Resolving deltas:  50% (1/2)[K
+remote: Resolving deltas: 100% (2/2)[K
+remote: Resolving deltas: 100% (2/2), done.[K
+To https://github.com/ssreeramj/git-tutorial.git
+   3724038..43fb247  main -> main
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git branch -v 
+[A
+[?1h=
+* [32mmain      [m 43fb247 modified new file[m
+  new_branch[m 43fb247 modified new file[m
+
+[K[?1l>]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ git checkot [K[Kut  
+ 
+[K-b experiment
+Switched to a new branch 'experiment'
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ ge[Kit rebse [K[K[Kase ma 
+in
+Current branch experiment is up to date.
+]0;ssreeramj@paradise: ~/MyStuff/work/mle_module_1/solutions/git_repo[01;32mssreeramj@paradise[00m:[01;34m~/MyStuff/work/mle_module_1/solutions/git_repo[00m$ exit
+exit
+
+Script done on 2021-06-22 14:16:10+0530
